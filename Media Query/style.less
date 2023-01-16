@@ -1,0 +1,47 @@
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    a{
+        display: inline-block;
+        padding: 20px 0 20px 0;
+        margin: 2px;
+        border-radius: 10px;
+        border:none;
+        transition: background-color .15s ease;
+    }
+}
+@media only screen and (max-width: 480px) {
+    a:hover{
+        background-color: rgb(117, 117, 13);
+    }
+    .navbtn{
+        background-color: yellow;
+        font-size: 1rem;  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 481px) {
+    a:hover{
+        background-color: rgb(24, 24, 171);
+    }
+    .navbtn{
+        background-color: blue;
+        font-size: 1.5rem;   
+        width:40%; 
+    }
+}
+@media only screen and (min-width: 1024px) {
+    a:hover{
+        background-color: rgb(155, 8, 8);
+    }
+    .navbtn{
+        background-color: red;
+        font-size: 2rem;
+        width:20%;   
+    }
+}
+

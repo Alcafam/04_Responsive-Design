@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhRTM.ttf) format('truetype');
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(to bottom, #cad6e2, #f9fafc, #cad6e2);
+  font-family: 'Nunito', sans-serif;
+}
+section {
+  width: 90%;
+  margin: auto;
+}
+#profile ul {
+  margin: 0;
+  padding: 0;
+}
+#profile li {
+  display: inline;
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+#profile hr {
+  margin: 4% 0 2% 0;
+  height: 0.25rem;
+  width: 100%;
+}
+#techno_proj {
+  display: block;
+  position: relative;
+}
+.m-1 {
+  margin: 1rem;
+}
+.mtb-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.p-1 {
+  padding: 1% 2% 1% 2%;
+}
+.p-2 {
+  padding: 2%;
+}
+.bg-blue {
+  background-color: #2d4767;
+}
+.bg-gray {
+  background-color: #e9eaef;
+}
+.f-blue {
+  color: #2d4767;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.no-bullet {
+  list-style: none;
+}
+@media only screen and (max-width: 480px) {
+  .sm-block {
+    display: block;
+  }
+  .sm-smedia {
+    width: 3%;
+  }
+  .sm-icon {
+    width: 20%;
+  }
+  .sm-f-1 {
+    font-size: 1rem;
+  }
+  .sm-f-2 {
+    font-size: 2rem;
+  }
+  .sm-10 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  #footer {
+    margin: 2% 0 2% 0;
+  }
+  .md-inline {
+    display: inline-block;
+  }
+  .md-line {
+    display: inline;
+  }
+  .md-2 {
+    width: 20%;
+  }
+  .md-3 {
+    width: 30%;
+  }
+  .md-4 {
+    width: 40%;
+  }
+  .md-5 {
+    width: 50%;
+  }
+  .md-smedia {
+    width: 3%;
+  }
+  .md-left {
+    float: left;
+  }
+  .md-icon {
+    width: 20%;
+  }
+  .md-f-2 {
+    font-size: 2.5rem;
+  }
+  .md-f-1 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #footer {
+    margin: 2% 0 2% 10%;
+  }
+  .lg-inline {
+    display: inline-block;
+  }
+  .lg-line {
+    display: inline;
+  }
+  .lg-smedia {
+    width: 3%;
+  }
+  .lg-left {
+    float: left;
+  }
+  .lg-icon {
+    width: 15%;
+  }
+  .lg-2 {
+    width: 20%;
+  }
+  .lg-5 {
+    width: 50%;
+  }
+  .lg-7 {
+    width: 70%;
+  }
+  .lg-f-1 {
+    font-size: 1.5rem;
+  }
+  .lg-f-2 {
+    font-size: 2rem;
+  }
+  .lg-f-5 {
+    font-size: 3.5rem;
+  }
+}

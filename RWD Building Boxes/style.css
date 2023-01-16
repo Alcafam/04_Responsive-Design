@@ -1,0 +1,141 @@
+body {
+  height: 90vh;
+  background-color: #ffd8b7;
+}
+span {
+  height: 100%;
+  display: inline-block;
+}
+.bg-brown {
+  background-color: #b97a57;
+}
+.bg-orange {
+  background-color: #ff7f26;
+}
+.bg-red {
+  background-color: #880016;
+}
+.bg-pink {
+  background-color: #feaec9;
+}
+.bg-blue {
+  background-color: #c7bfe6;
+}
+.bg-yellow {
+  background-color: #fffe88;
+}
+.h-1 {
+  height: 10%;
+}
+.h-2 {
+  height: 20%;
+}
+@media only screen and (max-width: 480px) {
+  #main {
+    height: 40%;
+  }
+  .md-sm {
+    width: 100%;
+    margin: 0;
+  }
+  .sm-brown {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+  .sm-orange {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+  .sm-pink {
+    width: 90%;
+    height: 80%;
+    margin: 5% 5% 5% 5%;
+  }
+  .sm-blue {
+    width: 0;
+  }
+  .sm-yellow {
+    display: block;
+    width: 100%;
+    margin: 1% 0 1% 0;
+  }
+}
+@media only screen and (min-width: 481px) {
+  section {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+  }
+  #main {
+    height: 60%;
+  }
+  .md-brown {
+    width: 32.33%;
+  }
+  .md-orange {
+    width: 65%;
+    float: right;
+  }
+  .md-pink {
+    width: 90%;
+    height: 86%;
+    margin: 3% 5% 3% 5%;
+  }
+  .md-blue {
+    width: 0;
+  }
+  .md-yellow {
+    width: 48%;
+    margin-bottom: 3%;
+  }
+  .md-first {
+    float: left;
+    margin-right: 4%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+  }
+  #main {
+    height: 60%;
+  }
+  .lg-brown {
+    width: 32.33%;
+  }
+  .lg-orange {
+    width: 65%;
+    float: right;
+  }
+  .lg-pink {
+    width: 75%;
+    height: 86%;
+    margin: 2% 0 2% 3%;
+  }
+  .lg-blue {
+    width: 16%;
+    height: 50%;
+    margin: 2% 3% 2% 0;
+    float: right;
+  }
+  .lg-yellow {
+    width: 32.33%;
+  }
+  .lg-first {
+    float: left;
+    margin-right: 1.5%;
+  }
+  .lg-last {
+    float: right;
+  }
+}

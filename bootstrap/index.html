@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	</head>
+	<body class="bg-dark">
+		<!-- NAVBAR PRACTICES -->
+		<ul class="nav nav-tabs bg-secondary ">
+			<li class="nav-item">
+				<a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">nav link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="#">nav link</a>
+			</li>
+		</ul>
+
+		<!-- jumbotron -->
+		<div class="container-fluid py-5 text-white p-5 mb-4 rounded-3">
+			<h1 class="display-5 fw-bold ">Custom jumbotron</h1>
+			<p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+			<button class="btn btn-secondary btn-lg" type="button">Example button</button>
+		</div>
+
+		<!-- Grid system + Containers + Button + form-->
+		<section class="container">
+			<div class="row">
+				<div class="col p-3 fs-6 text-white">
+					<form>
+						<h1>Form</h1>
+						<span class="input-group mb-3">
+							<label for="firstname" class="input-group-text">First name</label>
+								<input name="firstname" class="form-control">
+						</span>
+						<span class="input-group mb-3">
+							<label for="lastname" class="input-group-text">Last Name</label>
+								<input name="lastname" class="form-control">
+						</span>
+						<input type="submit" class="btn btn-success">
+					</form>
+				</div>
+				<div class="col bg-secondary rounded-5 text-white">
+					<h1>Just a Column</h1>
+					<button class="btn btn-outline-light">Just a Button</button>
+					<button class="btn btn-outline-light btn-lg">Large Button</button>
+				</div>
+			</div>
+		</section>
+		
+	</body>
+</html>
